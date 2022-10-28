@@ -1,0 +1,38 @@
+        NAND     
+  ================
+ A     | B     | C 
+-------+-------+------
+False  |False   |True
+True   |False   |True
+True   |False   |True
+True   |True    |False
+        AND     
+  ================
+ A     | B     | C 
+-------+-------+------
+False  |False   |False
+True   |False   |False
+True   |False   |False
+True   |True    |True
+        OR     
+  ================
+ A     | B     | C 
+-------+-------+------
+False  |False   |False
+True   |False   |True
+True   |False   |True
+True   |True    |True
+        NOT     
+  ================
+ A    | C 
+-------+-------
+False  |True
+True   |False
+        NOR     
+  ================
+ A     | B     | C 
+-------+-------+------
+False  |False   |True
+True   |False   |False
+True   |False   |False
+True   |True    |False
